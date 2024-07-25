@@ -32,9 +32,13 @@ function LogIn() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3001/auth/logIn", form, {
-        withCredentials: true,
-      });
+      await axios.post(
+        "https://food-server-iohq.onrender.com/auth/logIn",
+        form,
+        {
+          withCredentials: true,
+        }
+      );
       router.push("/");
     } catch (err) {
       alert("Error");

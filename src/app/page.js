@@ -31,7 +31,9 @@ export default function Home() {
     setBurgersLoading(true);
 
     try {
-      const response = await axios.get("http://localhost:3001/burgers");
+      const response = await axios.get(
+        "https://food-server-iohq.onrender.com/burgers"
+      );
       const data = await response.data;
 
       setBurgersLoading(false);
@@ -44,10 +46,13 @@ export default function Home() {
 
   async function getCategory() {
     try {
-      const response = await axios.post("http://localhost:3001/burgers", {
-        name: "",
-        category: category,
-      });
+      const response = await axios.post(
+        "https://food-server-iohq.onrender.com/burgers",
+        {
+          name: "",
+          category: category,
+        }
+      );
       setBurgers(response.data);
     } catch (err) {
       alert("Error");

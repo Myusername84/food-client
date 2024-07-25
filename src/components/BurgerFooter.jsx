@@ -20,7 +20,7 @@ function BurgerFooter({ burger }) {
   async function addItem() {
     try {
       await axios.post(
-        "http://localhost:3001/cart",
+        "https://food-server-iohq.onrender.com/cart",
         { id: burger._id, count: count },
         {
           withCredentials: true,

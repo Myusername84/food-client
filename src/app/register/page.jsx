@@ -33,7 +33,10 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3001/auth/register", form);
+      await axios.post(
+        "https://food-server-iohq.onrender.com/auth/register",
+        form
+      );
       router.push("/logIn");
     } catch (err) {
       alert("Error");

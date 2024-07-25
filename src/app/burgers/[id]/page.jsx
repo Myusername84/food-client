@@ -22,7 +22,9 @@ function Burger({ params }) {
 
   async function getBurger() {
     try {
-      const response = await axios.get(`http://localhost:3001/burgers/${id}`);
+      const response = await axios.get(
+        `https://food-server-iohq.onrender.com/burgers/${id}`
+      );
       setBurger(response.data);
     } catch (err) {
       alert("Error");

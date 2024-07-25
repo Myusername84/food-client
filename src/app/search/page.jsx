@@ -19,10 +19,13 @@ function Search() {
     e.preventDefault();
 
     try {
-      const response = await axios.post("http://localhost:3001/burgers", {
-        name: input,
-        category: category,
-      });
+      const response = await axios.post(
+        "https://food-server-iohq.onrender.com/burgers",
+        {
+          name: input,
+          category: category,
+        }
+      );
       setBurgers(response.data);
     } catch (err) {
       alert("Error");

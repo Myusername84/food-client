@@ -12,7 +12,10 @@ function SignInFooter({ text, link }) {
       </div>
 
       <div className={cls.links}>
-        <Link className={cls.authLink} href="http://localhost:3001/google">
+        <Link
+          className={cls.authLink}
+          href="https://food-server-iohq.onrender.com/google"
+        >
           <Image alt="Google Icon" width={20} height={20} src="/google.svg" />
         </Link>
       </div>

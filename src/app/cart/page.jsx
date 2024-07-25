@@ -20,9 +20,12 @@ function Cart() {
 
   async function getOrders() {
     try {
-      const response = await axios.get("http://localhost:3001/orders", {
-        withCredentials: true,
-      });
+      const response = await axios.get(
+        "https://food-server-iohq.onrender.com/orders",
+        {
+          withCredentials: true,
+        }
+      );
 
       setOrders(response.data);
 

@@ -21,9 +21,12 @@ function UserProfile() {
 
   async function getUser() {
     try {
-      const response = await axios.get("http://localhost:3001/user", {
-        withCredentials: true,
-      });
+      const response = await axios.get(
+        "https://food-server-iohq.onrender.com/user",
+        {
+          withCredentials: true,
+        }
+      );
       setUser(response.data);
     } catch (err) {
       console.log(err.message);
@@ -32,7 +35,7 @@ function UserProfile() {
 
   async function signOut() {
     try {
-      await axios.get("http://localhost:3001/signOut", {
+      await axios.get("https://food-server-iohq.onrender.com/signOut", {
         withCredentials: true,
       });
       router.push("/logIn");
@@ -43,9 +46,12 @@ function UserProfile() {
 
   async function deleteUser() {
     try {
-      await axios.delete("http://localhost:3001/deleteAccount", {
-        withCredentials: true,
-      });
+      await axios.delete(
+        "https://food-server-iohq.onrender.com/deleteAccount",
+        {
+          withCredentials: true,
+        }
+      );
       router.push("/register");
     } catch (err) {
       console.log(err.message);

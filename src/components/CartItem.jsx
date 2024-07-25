@@ -23,7 +23,7 @@ function CartItem({ item, setNewItems }) {
   async function sendCount() {
     try {
       const response = await axios.post(
-        "http://localhost:3001/changeCount",
+        "https://food-server-iohq.onrender.com/changeCount",
         {
           id: item._id,
           count: count,
@@ -42,7 +42,7 @@ function CartItem({ item, setNewItems }) {
   async function deleteItem() {
     try {
       const response = await axios.get(
-        `http://localhost:3001/deleteItem/${item._id}`,
+        `https://food-server-iohq.onrender.com/deleteItem/${item._id}`,
         {
           withCredentials: true,
         }
