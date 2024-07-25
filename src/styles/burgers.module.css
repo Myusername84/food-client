@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 153px);
+  width: 100%;
+  row-gap: 16px;
+  column-gap: 22px;
+  justify-content: center;
+}

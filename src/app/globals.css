@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: black;
+  min-height: 100vh;
+}
+
+body {
+  width: 375px;
+  height: 812px;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}

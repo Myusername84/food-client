@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(45, 60, 82, 0.34);
+  backdrop-filter: blur(5px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.mainContent {
+  padding: 16px;
+  border-radius: 12px;
+  position: relative;
+  background: white;
+}
+
+.close {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  top: 16px;
+  right: 16px;
+  border: 1px solid #ededed;
+  border-radius: 8px;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+}

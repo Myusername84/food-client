@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text {
+  margin-top: 16px;
+}
+
+.title {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 600;
+  color: #101010;
+  margin-bottom: 8px;
+}
+
+.parag {
+  text-align: center;
+  width: 282px;
+  color: #878787;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

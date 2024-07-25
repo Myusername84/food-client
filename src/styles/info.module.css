@@ -1,0 +1,21 @@
+.info {
+  display: flex;
+  justify-content: space-around;
+  width: 327px;
+  height: 39px;
+  background: rgba(254, 140, 0, 0.04);
+  border-radius: 8px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.infoBlock {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.infoBlock p {
+  font-size: 14px;
+  color: #878787;
+}

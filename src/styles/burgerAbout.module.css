@@ -1,0 +1,147 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding-top: 8px;
+
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.mainContent {
+  overflow-y: scroll;
+  flex: 1;
+}
+
+.top {
+  margin: 0 auto;
+  margin-bottom: 16px;
+  width: 359px;
+  height: 327px;
+  position: relative;
+  border-radius: 16px;
+}
+
+.top > img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 48px;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  align-items: center;
+}
+
+.whiteBtn {
+  width: 36px;
+  height: 36px;
+  outline: none;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+}
+
+.navTitle {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.content {
+  padding-left: 24px;
+  width: 100%;
+}
+
+.name {
+  margin-bottom: 8px;
+  color: #101010;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.price {
+  color: #fe8c00;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.line {
+  width: 327px;
+  height: 2px;
+  background: #ededed;
+  margin-bottom: 16px;
+}
+
+.descriptionTitle {
+  margin-bottom: 8px;
+  color: #101010;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.descriptionText {
+  font-size: 14px;
+  color: #878787;
+  line-height: 20px;
+  margin-bottom: 24px;
+}
+
+/* <div className={cls.container}>
+<div className={cls.top}>
+  <nav className={cls.nav}>
+    <button className={cls.whiteBtn}>
+      <Image src="/back.svg" width={11.6} height={5.8} />
+    </button>
+
+    <h3 className={cls.navTitle}>About This Menu</h3>
+
+    <button className={cls.whiteBtn}>
+      <Image src="/heart.svg" width={15} height={12.8} />
+    </button>
+  </nav>
+
+  <Image width={359} height={327} src={burger.image} />
+</div>
+
+<h3 className={cls.name}>{burger.name}</h3>
+<p className={cls.price}>$ {burger.price}</p>
+
+<div className={cls.info}>
+  <div className={cls.infoBlock}>
+    <Image src="/dollar.svg" width={10} height={23} />
+    <p>Free Delivery</p>
+  </div>
+
+  <div className={cls.infoBlock}>
+    <Image src="/time.svg" width={14} height={14} />
+    <p>20-30</p>
+  </div>
+
+  <div className={cls.infoBlock}>
+    <Image src="/star.svg" width={11.5} height={11} />
+    <p>{burger.stars}</p>
+  </div>
+</div>
+
+<div className={cls.line}></div>
+
+<h3 className={cls.descriptionTitle}>Description</h3>
+<p className={cls.descriptionText}>{burger.description}</p>
+</div> */

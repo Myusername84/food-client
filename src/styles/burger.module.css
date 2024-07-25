@@ -1,0 +1,69 @@
+.container {
+  background: white;
+  border-radius: 12px;
+  gap: 8px;
+  width: 152px;
+  height: 204px;
+  padding: 8px;
+}
+
+.top {
+  position: relative;
+  width: 137px;
+  height: 106px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+}
+
+.burgerImage {
+  border-radius: 8px;
+}
+
+.heart {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: white;
+  top: 8px;
+  right: 8px;
+  border: none;
+  outline: none;
+}
+
+.name {
+  font-size: 16px;
+  color: #101010;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 7px;
+}
+
+.stars,
+.destination {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.starsText,
+.destinationText {
+  font-size: 12px;
+  font-weight: 500;
+  color: #101010;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fe8c00;
+}

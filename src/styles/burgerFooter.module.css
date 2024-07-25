@@ -1,0 +1,76 @@
+.container {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background: white;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ededed;
+  border-radius: 50%;
+  outline: none;
+  background: white;
+
+  font-size: 16px;
+  color: #101010;
+  font-weight: 600;
+}
+
+.count {
+  font-size: 18px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.addToCart {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  justify-content: center;
+  width: 183px;
+  height: 52px;
+  border-radius: 100px;
+  outline: none;
+  border: none;
+  background: #fe8c00;
+}
+
+.addToCart p {
+  color: white;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* <div className={cls.container}>
+<div className={cls.buttons}>
+  <button className={cls.button} onClick={decreaseCount}>
+    -
+  </button>
+  <p className={cls.count}>{count}</p>
+  <button className={cls.button} onClick={() => setCount(count + 1)}>
+    +
+  </button>
+</div>
+
+<button className={cls.addToCart} onClick={addItem}>
+  <Image src="/cartBag.svg" width={15} height={15} />
+  <p>Add to Carts</p>
+</button> */

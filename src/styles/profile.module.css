@@ -1,0 +1,226 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding-top: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  flex: 1;
+  overflow-y: scroll;
+}
+
+.content > h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #101010;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.images {
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+  margin-bottom: 16px;
+}
+
+.camera {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.text h3 {
+  text-align: center;
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.text p {
+  text-align: center;
+  font-size: 14px;
+  color: #878787;
+}
+
+.line {
+  width: 327px;
+  height: 2px;
+  background: #ededed;
+  margin-bottom: 24px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 30px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menuItem > p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #878787;
+  margin-bottom: 8px;
+}
+
+.item {
+  display: flex;
+  width: 327px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.front {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.front div {
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background: #f5f5ff;
+}
+
+.front p {
+  color: #101010;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.dangerButton {
+  width: 327px;
+  height: 52px;
+  border: 1px solid #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background: white;
+  outline: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.dangerButton p {
+  color: #f14141;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.modal h3 {
+  margin-bottom: 28px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.modal p {
+  margin-bottom: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #878787;
+}
+
+.modal div {
+  display: flex;
+  gap: 16px;
+}
+
+.grayBtn,
+.orangeBtn {
+  width: 139.5px;
+  height: 48px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.orangeBtn {
+  border: none;
+  background: #fe8c00;
+  color: white;
+}
+
+.grayBtn {
+  color: black;
+  background: white;
+  border: 1px solid #d6d6d6;
+}
+
+/* {modal == "signOut" ? (
+  <Modal setModal={setModal}>
+    <div className={cls.modal}>
+      <h3>Sign Out</h3>
+      <p>Do you want to sign out?</p>
+
+      <div>
+        <button onClick={() => setModal(false)} className={cls.grayBtn}>
+          Cancel
+        </button>
+        <button onClick={signOut} className={cls.orangeBtn}>
+          Log Out
+        </button>
+      </div>
+    </div>
+  </Modal>
+) : null}
+
+{modal == "delete" ? (
+  <Modal setModal={setModal}>
+    <div className={cls.modal}>
+      <h3>Delete Profile</h3>
+      <p>Do you want to delete profile?</p>
+
+      <div>
+        <button onClick={() => setModal(false)} className={cls.grayBtn}>
+          Cancel
+        </button>
+        <button onClick={deleteUser} className={cls.orangeBtn}>
+          Delete
+        </button>
+      </div>
+    </div> */

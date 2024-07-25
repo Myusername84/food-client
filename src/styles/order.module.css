@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  width: 351px;
+  margin: 0 auto;
+}
+
+.container > img {
+  border-radius: 8px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content > p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #878787;
+}
+
+.text {
+}
+
+.text > h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #101010;
+  margin-bottom: 8px;
+}
+
+.text > p {
+  font-size: 14px;
+  color: #fe8c00;
+  font-weight: 700;
+}

@@ -1,0 +1,55 @@
+.lineContainer {
+  width: 327px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.line {
+  width: 327px;
+  height: 1px;
+  background: #878787;
+}
+
+.lineText {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  background: white;
+  font-weight: 500;
+  color: #878787;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.authLink {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #d6d6d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.registerPage {
+  font-size: 14px;
+  font-weight: 500;
+  color: #101010;
+  text-align: center;
+}
+
+.boldLink {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fe8c00;
+}

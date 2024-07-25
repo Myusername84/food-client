@@ -1,0 +1,133 @@
+.container {
+  width: 100%;
+  height: 100%;
+  background: white;
+  padding-top: 56px;
+}
+
+.nav {
+  display: flex;
+  padding-left: 24px;
+  gap: 93px;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.nav p {
+  color: #101010;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.text {
+  padding-left: 24px;
+  margin-bottom: 24px;
+}
+
+.text p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #878787;
+  margin-bottom: 4px;
+}
+
+.text h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #101010;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 41px;
+}
+
+.detailsContainer > p {
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #101010;
+  padding-left: 24px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  width: 100%;
+  align-items: center;
+}
+
+.detail {
+  width: 327px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail p {
+  font-size: 14px;
+  color: #878787;
+}
+
+.detail h3 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #101010;
+}
+
+.detail .total {
+  font-weight: 700;
+  color: #fe8c00;
+}
+
+.orangeBtn {
+  width: 327px;
+  margin: 0 auto;
+  height: 52px;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: #fe8c00;
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+}
+
+/* <div className={cls.detailsContainer}>
+<p>Details Transaction</p>
+
+<div className={cls.details}>
+  <div className={cls.detail}>
+    <p>Cherry Healthy</p>
+    <h3>$ 180.000</h3>
+  </div>
+
+  <div className={cls.detail}>
+    <p>Driver</p>
+    <h3>$ 50.000</h3>
+  </div>
+
+  <div className={cls.detail}>
+    <p>Tax 10%</p>
+    <h3>$ 180.000</h3>
+  </div>
+
+  <div className={cls.detail}>
+    <p>Total Price</p>
+    <h3 className={cls.total}>$ {total + total * 0.1}.000</h3>
+  </div>
+</div>
+</div> */

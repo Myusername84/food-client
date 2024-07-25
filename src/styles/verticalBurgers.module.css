@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 100%;
+  padding-left: 24px;
+}
+
+.burger {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.burgerImage {
+  border-radius: 8px;
+}
+
+.text > h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #101010;
+  margin-bottom: 4px;
+}
+
+.text > p {
+  font-size: 12px;
+  color: #878787;
+  margin-bottom: 8px;
+}
+
+.info {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+
+.infoBlock {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.infoBlock .p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #101010;
+}
